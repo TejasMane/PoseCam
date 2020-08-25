@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -43,6 +44,14 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
     private Camera mCamera;
     private CameraPreview mCameraPreview;
 
+
+//    private SensorManager mSensorManager;
+//    private Sensor mSensorAccelerometer;
+//    private Sensor mSensorMagnetometer;
+//    private Sensor mSensorRotmeter;
+
+//    private float[] mRotmeterData = new float[3];
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,6 +61,18 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
         mCameraPreview = new CameraPreview(this, mCamera);
         FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
         preview.addView(mCameraPreview);
+
+
+//        mSensorRotmeter = mSensorManager.getDefaultSensor(
+//                Sensor.TYPE_ROTATION_VECTOR );
+//
+//        if (mSensorRotmeter != null) {
+//            mSensorManager.registerListener(this, mSensorRotmeter,
+//                    SensorManager.SENSOR_DELAY_NORMAL);
+//        }
+
+
+
 
         Button captureButton = (Button) findViewById(R.id.button_capture);
         captureButton.setOnClickListener(new View.OnClickListener() {
@@ -90,6 +111,15 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
         Camera camera = null;
         try {
             camera = Camera.open();
+//            Camera.Parameters params = camera.getParameters();
+//            List<String> flashModes = params.getSupportedFlashModes();
+//
+//            if (flashModes.contains(Camera.Parameters.FLASH_MODE_AUTO)) {
+//                params.setFlashMode(Camera.Parameters.FLASH_MODE_AUTO);
+//            }
+//            camera.setParameters(params);
+
+
         } catch (Exception e) {
             // cannot get camera or does not exist
         }
@@ -111,6 +141,8 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
 
             } catch (IOException e) {
             }
+
+            mCamera.startPreview();
         }
     };
 
@@ -118,10 +150,10 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
         File mediaStorageDir = new File(
                 Environment
                         .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
-                "MyCameraApp");
+                "PoseCam");
         if (!mediaStorageDir.exists()) {
             if (!mediaStorageDir.mkdirs()) {
-                Log.d("MyCameraApp", "failed to create directory");
+                Log.d("PoseCam", "failed to create directory");
                 return null;
             }
         }
@@ -131,27 +163,22 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
         File mediaFile;
 
 
-        String azi = (String) MainActivity.mTextSensorAzimuth.getText();
-        int aziI = (int) Double.parseDouble(azi);
-        azi = Integer.toString(aziI);
+        int aziI = (int)  (MyService.azimuth * 90/1.57);
+        String azi = Integer.toString(aziI);
 
-        String Pitch = (String) MainActivity.mTextSensorPitch.getText();
-        int PitchI = (int) Double.parseDouble(Pitch);
-        Pitch = Integer.toString(PitchI);
+        int PitchI =  (int)  (MyService.pitch * 90/1.57);
+        String Pitch = Integer.toString(PitchI);
 
-        String Roll = (String) MainActivity.mTextSensorRoll.getText();
-        int RollI = (int) Double.parseDouble(Roll);
-        Roll = Integer.toString(RollI);
+        int RollI = (int)  (MyService.roll * 90/1.57);
+        String Roll = Integer.toString(RollI);
 
         String fileName = "angles_"+azi+"_"+Pitch+"_"+Roll;
 
 
-
-
-
-
         mediaFile = new File(mediaStorageDir.getPath() + File.separator
                  + fileName + ".png");
+
+
 
         return mediaFile;
     }

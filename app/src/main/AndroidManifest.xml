@@ -16,7 +16,8 @@
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:stopWithTask="true"
+            android:exported="false"></service>
 
         <activity android:name=".CamActivity" />
         <activity android:name=".Activity2" />

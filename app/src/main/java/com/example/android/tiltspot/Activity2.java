@@ -66,7 +66,7 @@ public class Activity2 extends AppCompatActivity {
         final ArrayList<String> list = new ArrayList<String>();
         final ArrayList<String> list2 = new ArrayList<String>();
 
-        File directory = new File(Environment.getExternalStorageDirectory().getPath()  + "/Android/data/com.example.android.tiltspot/files/Pictures/");
+        File directory = new File(Environment.getExternalStorageDirectory().getPath()  + "/Pictures/PoseCam/");
         final File[] files = directory.listFiles();
 
         try {
@@ -74,7 +74,7 @@ public class Activity2 extends AppCompatActivity {
             {
                 list.add(files[i].getName());
 
-                File file = new File(Environment.getExternalStorageDirectory().getPath()  + "/Android/data/com.example.android.tiltspot/files/Pictures/" + files[i].getName());
+                File file = new File(Environment.getExternalStorageDirectory().getPath()  + "/Pictures/PoseCam/" + files[i].getName());
                 Path filePath = file.toPath();
 
 
@@ -130,13 +130,13 @@ public class Activity2 extends AppCompatActivity {
         findViewById(R.id.DeleteAll).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                File directory = new File(Environment.getExternalStorageDirectory().getPath()  + "/Android/data/com.example.android.tiltspot/files/Pictures/");
+                File directory = new File(Environment.getExternalStorageDirectory().getPath()  + "/Pictures/PoseCam/");
                 File[] files = directory.listFiles();
                 for (int i = 0; i < files.length; i++)
                 {
 
                     File file = new File(Environment.getExternalStorageDirectory().getPath()
-                            + "/Android/data/com.example.android.tiltspot/files/Pictures/" + files[i].getName());
+                            + "/Pictures/PoseCam/" + files[i].getName());
                     boolean deleted = file.delete();
                     recreate();
                 }
@@ -220,7 +220,7 @@ public class Activity2 extends AppCompatActivity {
 
 
             File imgFile = new  File(Environment.getExternalStorageDirectory().getPath()
-                    + "/Android/data/com.example.android.tiltspot/files/Pictures/"+list.get(position));
+                    + "/Pictures/PoseCam/"+list.get(position));
 
 
 
@@ -237,7 +237,7 @@ public class Activity2 extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     //do something
-                    File file = new File(Environment.getExternalStorageDirectory().getPath()  + "/Android/data/com.example.android.tiltspot/files/Pictures/", list.get(position));
+                    File file = new File(Environment.getExternalStorageDirectory().getPath()  + "/Pictures/PoseCam/", list.get(position));
                     boolean deleted = file.delete();
 
                     list.remove(position); //or some other task

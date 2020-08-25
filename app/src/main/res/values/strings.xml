@@ -23,7 +23,7 @@ limitations under the License. -->
      that will be filled in at runtime:
      %1 is the value to replace
      $.2f says the value is a float, with two decimal places.  -->
-    <string name="value_format">%1$.2f</string>
+    <string name="value_format">%1$.0f</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
