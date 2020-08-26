@@ -110,7 +110,24 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
     private Camera getCameraInstance() {
         Camera camera = null;
         try {
-            camera = Camera.open();
+
+
+            
+//            camera = Camera.open();
+
+            Camera.CameraInfo cameraInfo = new Camera.CameraInfo();
+            int cameraCount = Camera.getNumberOfCameras();
+            for (int camIdx = 0; camIdx < cameraCount; camIdx++) {
+                Camera.getCameraInfo(camIdx, cameraInfo);
+                if (cameraInfo.facing == Camera.CameraInfo.CAMERA_FACING_FRONT) {
+                    try {
+                        camera = Camera.open(camIdx);
+                    } catch (RuntimeException e) {
+                    }
+                }
+            }
+
+
 //            Camera.Parameters params = camera.getParameters();
 //            List<String> flashModes = params.getSupportedFlashModes();
 //
@@ -151,12 +168,7 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
                 Environment
                         .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
                 "PoseCam");
-        if (!mediaStorageDir.exists()) {
-            if (!mediaStorageDir.mkdirs()) {
-                Log.d("PoseCam", "failed to create directory");
-                return null;
-            }
-        }
+
         // Create a media file name
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss")
                 .format(new Date());
@@ -176,7 +188,7 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
 
 
         mediaFile = new File(mediaStorageDir.getPath() + File.separator
-                 + fileName + ".png");
+                 + fileName + "_"+timeStamp+ ".png");
 
 
 

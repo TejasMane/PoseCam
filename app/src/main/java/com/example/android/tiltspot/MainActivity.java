@@ -19,6 +19,7 @@ package com.example.android.tiltspot;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -31,9 +32,11 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
+import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -91,11 +94,17 @@ public class MainActivity extends AppCompatActivity {
 
         final Camera[] camera = new Camera[1];
 
+        File mediaStorageDir = new File(
+                Environment
+                        .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
+                "PoseCam");
 
+        if (!mediaStorageDir.exists()) {
+            mediaStorageDir.mkdirs();
+        }
 
         startService(new Intent(this, MyService.class));
-
-
+        
 
 
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {

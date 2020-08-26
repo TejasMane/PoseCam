@@ -1,4 +1,4 @@
-#Tue Aug 25 16:27:11 EDT 2020
+#Tue Aug 25 21:07:07 EDT 2020
 base.0=F\:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

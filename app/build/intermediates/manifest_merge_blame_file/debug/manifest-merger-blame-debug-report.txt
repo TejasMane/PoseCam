@@ -33,80 +33,81 @@
 20-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:13:9-54
 21        android:supportsRtl="true"
 21-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:14:9-35
-22        android:theme="@style/AppTheme" >
-22-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:15:9-40
-23        <service
-23-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:16:9-20:48
-24            android:name="com.example.android.tiltspot.MyService"
-24-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:17:13-38
-25            android:enabled="true"
-25-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:18:13-35
-26            android:exported="false"
-26-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:20:13-37
-27            android:stopWithTask="true" />
-27-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:19:13-40
-28
-29        <activity android:name="com.example.android.tiltspot.CamActivity" />
-29-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:9-49
-29-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:19-46
-30        <activity android:name="com.example.android.tiltspot.Activity2" />
-30-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-47
-30-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:19-44
-31        <activity android:name="com.example.android.tiltspot.MainActivity" >
-31-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-30:20
-31-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:19-47
-32            <intent-filter>
-32-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:13-29:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:17-69
-33-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:17-77
-35-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:27-74
-36            </intent-filter>
-37        </activity>
-38
-39        <provider
-39-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:32:9-40:20
-40            android:name="android.support.v4.content.FileProvider"
-40-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:13-67
-41            android:authorities="com.example.android.tiltspot.fileprovider"
-41-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:13-76
-42            android:exported="false"
-42-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:35:13-37
-43            android:grantUriPermissions="true" >
-43-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:13-47
-44            <meta-data
-44-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:37:13-39:54
-45                android:name="android.support.FILE_PROVIDER_PATHS"
-45-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:17-67
-46                android:resource="@xml/file_paths" />
-46-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:39:17-51
-47        </provider>
-48
-49        <meta-data
-49-->[com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:26:9-28:38
-50            android:name="android.support.VERSION"
-50-->[com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:27:13-51
-51            android:value="26.1.0" />
-51-->[com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:28:13-35
-52
-53        <provider
-53-->[com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:8:9-11:40
-54            android:name="com.squareup.picasso.PicassoProvider"
-54-->[com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:9:13-64
-55            android:authorities="com.example.android.tiltspot.com.squareup.picasso"
-55-->[com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:10:13-72
-56            android:exported="false" />
-56-->[com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:11:13-37
-57
-58        <meta-data
-58-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
-59            android:name="android.arch.lifecycle.VERSION"
-59-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:26:13-58
-60            android:value="27.0.0-SNAPSHOT" />
-60-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:27:13-44
-61    </application>
-62
-63</manifest>
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:15:9-40
+24        <service
+24-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:16:9-20:48
+25            android:name="com.example.android.tiltspot.MyService"
+25-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:17:13-38
+26            android:enabled="true"
+26-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:18:13-35
+27            android:exported="false"
+27-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:20:13-37
+28            android:stopWithTask="true" />
+28-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:19:13-40
+29
+30        <activity android:name="com.example.android.tiltspot.CamActivity" />
+30-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:9-49
+30-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:19-46
+31        <activity android:name="com.example.android.tiltspot.Activity2" />
+31-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-47
+31-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:19-44
+32        <activity android:name="com.example.android.tiltspot.MainActivity" >
+32-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-30:20
+32-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:19-47
+33            <intent-filter>
+33-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:17-69
+34-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:17-77
+36-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:32:9-40:20
+41            android:name="android.support.v4.content.FileProvider"
+41-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:13-67
+42            android:authorities="com.example.android.tiltspot.fileprovider"
+42-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:13-76
+43            android:exported="false"
+43-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:35:13-37
+44            android:grantUriPermissions="true" >
+44-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:13-47
+45            <meta-data
+45-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:37:13-39:54
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:17-67
+47                android:resource="@xml/file_paths" />
+47-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:39:17-51
+48        </provider>
+49
+50        <meta-data
+50-->[com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:26:9-28:38
+51            android:name="android.support.VERSION"
+51-->[com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:27:13-51
+52            android:value="26.1.0" />
+52-->[com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:28:13-35
+53
+54        <provider
+54-->[com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+55            android:name="com.squareup.picasso.PicassoProvider"
+55-->[com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:9:13-64
+56            android:authorities="com.example.android.tiltspot.com.squareup.picasso"
+56-->[com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:10:13-72
+57            android:exported="false" />
+57-->[com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:11:13-37
+58
+59        <meta-data
+59-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+60            android:name="android.arch.lifecycle.VERSION"
+60-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:26:13-58
+61            android:value="27.0.0-SNAPSHOT" />
+61-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:27:13-44
+62    </application>
+63
+64</manifest>
