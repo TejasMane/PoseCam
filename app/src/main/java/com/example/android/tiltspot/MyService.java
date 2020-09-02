@@ -9,6 +9,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
+import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,11 +30,12 @@ public class MyService extends IntentService implements SensorEventListener {
 
     private static final float VALUE_DRIFT = 0.05f;
 
-
-
+    static Button listView;
 
 
     public static float azimuth;
+    public float azimuthTemp;
+
     public static float roll;
     public static float pitch;
 
@@ -97,16 +99,23 @@ public class MyService extends IntentService implements SensorEventListener {
 
 
 
-        this.azimuth = orientationValues[0];
-        this.pitch = orientationValues[1];
-        this.roll = orientationValues[2];
+        this.azimuthTemp = (float)(orientationValues[0]);
+        if (this.azimuthTemp < 0) {
+            this.azimuthTemp += 2*Math.PI;
+        }
+        this.azimuth = (float) (this.azimuthTemp );
 
-        MainActivity.mTextSensorAzimuth.setText(getResources().getString(
-                R.string.value_format, azimuth*90/1.57));
-        MainActivity.mTextSensorPitch.setText(getResources().getString(
-                R.string.value_format, pitch*90/1.57));
-        MainActivity.mTextSensorRoll.setText(getResources().getString(
-                R.string.value_format, roll*90/1.57));
+        this.pitch = (float) (orientationValues[1]);
+        this.roll = (float) (orientationValues[2]);
+
+
+        MainActivity.mTextSensorAzimuth.setText("A:"+getResources().getString(R.string.value_format, this.azimuth*90/1.57)+", "
+                +"P:"+getResources().getString(R.string.value_format, this.pitch*90/1.57)+", "
+                +"R:"+getResources().getString(R.string.value_format, this.roll*90/1.57));
+//        MainActivity.mTextSensorPitch.setText(getResources().getString(
+//                R.string.value_format, pitch*90/1.57));
+//        MainActivity.mTextSensorRoll.setText(getResources().getString(
+//                R.string.value_format, roll*90/1.57));
 
 
 
@@ -125,10 +134,19 @@ public class MyService extends IntentService implements SensorEventListener {
     }
 
 
+    public int onStartCommand(Intent intent, int flags, int startId) {
+
+
+
+
+        return START_STICKY_COMPATIBILITY;
+    }
+
     protected void ondestroy()
     {
-        mSensorManager.unregisterListener(this);
 
+        mSensorManager.unregisterListener(this);
+        super.onDestroy();
     }
 
 

@@ -4,6 +4,7 @@ import android.content.Context;
 import android.hardware.Camera;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.widget.Toast;
 
 import java.io.IOException;
 
@@ -33,17 +34,32 @@ public class CameraPreview extends SurfaceView implements
         }
     }
 
+
+
     @Override
     public void surfaceDestroyed(SurfaceHolder surfaceHolder) {
-//        mCamera.stopPreview();
-//        mCamera.startPreview();
-//        mCamera.release();
-//        mCamera.startPreview();
+
     }
 
     @Override
     public void surfaceChanged(SurfaceHolder surfaceHolder, int format,
                                int width, int height) {
+
+        if (mSurfaceHolder.getSurface() == null) {
+            // preview surface does not exist
+            return;
+        }
+
+        // stop preview before making changes
+        try {
+            mCamera.stopPreview();
+        } catch (Exception e) {
+            // ignore: tried to stop a non-existent preview
+        }
+
+
+
+
         // start preview with new settings
         try {
             mCamera.setPreviewDisplay(surfaceHolder);
@@ -52,4 +68,5 @@ public class CameraPreview extends SurfaceView implements
             // intentionally left blank for a test
         }
     }
+
 }

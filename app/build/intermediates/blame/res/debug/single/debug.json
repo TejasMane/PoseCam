@@ -4,8 +4,564 @@
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchertej.png"
     },
     {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_trash.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_trash.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchertejflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchertejflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_homescreen_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_homescreen_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertej_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertej_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_homescreen_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_homescreen_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launchertej_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launchertej_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launchertej2_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launchertej2_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circular_progress_bar.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\drawable\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launchertej2_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launchertej2_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_photo_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_photo_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchertej_round.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchertej_round.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherflip_round.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherflip_round.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_homescreen_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_homescreen_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchertejflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchertejflip_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchertej2_round.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchertej2_round.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertej2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertej2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_delete.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_scrolling.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\menu\\menu_scrolling.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchertej2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchertej2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchertejflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchertejflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_photo_camera2.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_photo_camera2.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcherflip_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcherflip_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_homescreen_background.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_homescreen_background.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_ar_cameranew.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_ar_cameranew.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_homescreen_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_homescreen_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_photo_camera2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_photo_camera2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_foreground.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_ar_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_ar_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_photo_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_photo_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchertejflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchertejflip_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_share.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_share.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchertejflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchertejflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launchertej_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launchertej_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_left.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_left.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_photo_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_photo_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcherflip_background.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcherflip_background.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchertejflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchertejflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_ar_cameranew.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_ar_cameranew.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_share.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_share.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_left.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_left.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchertej2_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchertej2_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_photo_camera2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_photo_camera2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_trash.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_trash.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launchercam_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launchercam_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_trash.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_trash.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launchertej_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launchertej_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchercam_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchercam_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_left.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_left.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchercam.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchercam.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_photo_camera.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_photo_camera.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launchertej2_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launchertej2_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchertej2_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchertej2_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_camera.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_camera.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcherflip_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcherflip_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launchercam_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launchercam_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_homescreen_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_homescreen_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_delete.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_delete.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_homescreen_round.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_homescreen_round.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherflip.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherflip.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launchertej2_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launchertej2_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_share.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_share.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_photo.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_homescreen.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_homescreen.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_scrolling.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\content_scrolling.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchertej2.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchertej2.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_delete.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_delete.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchertej2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchertej2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launchercam_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launchercam_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchertej2_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchertej2_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_delete.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_delete.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_share.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_share.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchertejflip_round.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchertejflip_round.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_photo_camera2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_photo_camera2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_photo_camera2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_photo_camera2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherflip_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchertejflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchertejflip_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_share.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_share.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launchertej_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launchertej_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_ar_cameranew.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_ar_cameranew.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_left.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_left.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launchercam_foreground.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launchercam_foreground.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchercam_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchercam_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_homescreen_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_homescreen_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchertej.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchertej.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_homescreen.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_homescreen.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_left.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_left.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launchercam_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launchercam_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity2.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\activity2.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_homescreen_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_homescreen_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertej.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertej.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_homescreen_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_homescreen_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launchercam_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launchercam_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launchercam_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launchercam_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_photo.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launchercam_background.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launchercam_background.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchercam.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchercam.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launchercam_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launchercam_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_share.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_share.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launchertej2_foreground.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launchertej2_foreground.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_ar_camera.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_ar_camera.xml"
+    },
+    {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchercam.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchercam.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcherflip_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcherflip_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_photo_camera2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_photo_camera2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertejflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertejflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_ar_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_ar_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launchertej_foreground.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launchertej_foreground.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_homescreen_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_homescreen_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertej2_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertej2_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertejflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertejflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launchercam_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launchercam_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertej_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertej_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertej2_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertej2_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_left.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_left.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable_homescreen.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\drawable\\homescreen.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_homescreen_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_homescreen_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_photo_camera2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_photo_camera2.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_homescreen.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_homescreen.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_homescreen_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_homescreen_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchercam_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchercam_round.png"
     },
     {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -16,172 +572,340 @@
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\activity_scrolling.xml"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertej.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertej.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertej2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertej2.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchertej.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchertej.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_photo.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_photo.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertejflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertejflip_foreground.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_foreground.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_foreground.xml"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_homescreen.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_homescreen.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherflip_round.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_photo.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_photo.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_homescreen_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_homescreen_round.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertej_round.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertej_round.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launchertej_foreground.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launchertej_foreground.xml"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity2.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\activity2.xml"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launchertej_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launchertej_foreground.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launchertej_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launchertej_foreground.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchercam.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchercam.png"
     },
     {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchercam_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchercam_round.png"
     },
     {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_camera_layout.xml.flat",
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\camera_layout.xml"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertej.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertej.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_delete.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete.xml"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circular_progress_bar.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\drawable\\circular_progress_bar.xml"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherflip.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchertej_round.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchertej_round.xml"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_photo_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_photo_camera.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_scrolling.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\content_scrolling.xml"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchertej_round.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchertej_round.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_cam_layout.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\cam_layout.xml"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_ar_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_ar_camera.png"
     },
     {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_share.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share.xml"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertej_round.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertej_round.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launchertej_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launchertej_foreground.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchertej2.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchertej2.png"
     },
     {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launchertej_foreground.png.flat",
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launchertej_foreground.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launchertej_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launchertej_foreground.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launchertej_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launchertej_foreground.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchertej.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchertej.png"
-    },
-    {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_scrolling.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\menu\\menu_scrolling.xml"
-    },
-    {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchertej_round.png.flat",
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchertej_round.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\xml\\file_paths.xml"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_trash.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_trash.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_ar_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_ar_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_trash.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_trash.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcherflip_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcherflip_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchertej.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchertej.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_photo.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launchercam.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launchercam.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_ar_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_ar_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertej.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertej.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchercam.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchercam.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launchercam_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launchercam_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertejflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertejflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_ar_cameranew.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_ar_cameranew.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_homescreen_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_homescreen_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchertejflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchertejflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherflip_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_ar_cameranew.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_ar_cameranew.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launchercam_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launchercam_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launchertej2_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launchertej2_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchertejflip.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchertejflip.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_cam_layout.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\cam_layout.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_delete.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_delete.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_ar_cameranew.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_ar_cameranew.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launchertejflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launchertejflip_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_photo_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_photo_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchercam_round.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchercam_round.xml"
     },
     {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launchercam_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launchercam_foreground.png"
     },
     {
-        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launchertej.xml.flat",
-        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launchertej.xml"
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherflip_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_ar_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_ar_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_homescreen.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_homescreen.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launchertej2_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launchertej2_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_trash.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_trash.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_homescreen_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_homescreen_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchertejflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchertejflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_trash.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_trash.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherflip_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_ar_cameranew.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_ar_cameranew.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_photo_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_photo_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_delete.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_delete.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_homescreen_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_homescreen_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launchertej_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launchertej_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcherflip_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcherflip_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_homescreen_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_homescreen_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_left.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_left.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launchercam_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launchercam_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launchertej_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launchertej_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherflip_round.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherflip_round.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_photo.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_photo.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcherflip_background.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcherflip_background.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchertej.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchertej.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_photo.xml.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_photo.xml"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launchercam_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launchercam_foreground.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_camera.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_camera.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launchertejflip.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchertejflip.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_homescreen.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-xhdpi\\ic_homescreen.png"
+    },
+    {
+        "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherflip_foreground.png.flat",
+        "source": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherflip_foreground.png"
     },
     {
         "merged": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\res\\merged\\debug\\layout_customlayout.xml.flat",

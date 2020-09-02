@@ -16,8 +16,9 @@
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:stopWithTask="true"
-            android:exported="false"></service>
+            android:exported="false"
+            android:launchMode="singleTop"
+            ></service>
 
         <activity android:name=".CamActivity" />
         <activity android:name=".Activity2" />

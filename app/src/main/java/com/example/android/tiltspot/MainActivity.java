@@ -34,6 +34,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -50,7 +51,9 @@ import java.util.List;
 
 import ir.mahdi.mzip.zip.ZipArchive;
 
-
+import static android.Manifest.permission.CAMERA;
+import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 
 
 
@@ -62,29 +65,46 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar spinner;
 
     private String path;
-
-
-
-
-
-    // TextViews to display current sensor values.
     public static TextView mTextSensorAzimuth;
-    public static TextView mTextSensorPitch;
-    public static TextView mTextSensorRoll;
 
+
+    private static final String[] PERMS_TAKE_PICTURE={
+            CAMERA,
+            WRITE_EXTERNAL_STORAGE,
+            READ_EXTERNAL_STORAGE
+    };
+
+
+
+    private boolean isInPermission=false;
+    private static final int RESULT_PERMS_INITIAL=1339;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mTextSensorAzimuth = (TextView) findViewById(R.id.textView);
+
+        if (!isInPermission) {
+            isInPermission=true;
+
+            ActivityCompat.requestPermissions(this, PERMS_TAKE_PICTURE,
+                    RESULT_PERMS_INITIAL);
+        }
+
+
+
+
+
 
         // Lock the orientation to portrait (for now)
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-        mTextSensorAzimuth = (TextView) findViewById(R.id.value_azimuth);
-        mTextSensorPitch = (TextView) findViewById(R.id.value_pitch);
-        mTextSensorRoll = (TextView) findViewById(R.id.value_roll);
+
+//        mTextSensorAzimuth = (TextView) findViewById(R.id.value_azimuth);
+//        mTextSensorPitch = (TextView) findViewById(R.id.value_pitch);
+//        mTextSensorRoll = (TextView) findViewById(R.id.value_roll);
 
 
 
@@ -104,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         startService(new Intent(this, MyService.class));
-        
+
 
 
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
@@ -153,12 +173,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 
-                new Thread(new Runnable() {
-                    public void run() {
+//                new Thread(new Runnable() {
+//                    public void run() {
                         openCamActivity();
-
-                    }
-                }).start();
+//
+//                    }
+//                }).start();
 
 
             }
@@ -174,12 +194,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 
-                new Thread(new Runnable() {
-                    public void run() {
+//                new Thread(new Runnable() {
+//                    public void run() {
+
                         openActivity2();
 
-                    }
-                }).start();
+//                    }
+//                }).start();
 
 
 

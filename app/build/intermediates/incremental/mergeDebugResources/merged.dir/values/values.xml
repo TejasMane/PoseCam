@@ -137,8 +137,12 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="ic_homescreen_background">#FFFFFF</color>
     <color name="ic_launcher_background">#8748DC</color>
+    <color name="ic_launchercam_background">#000000</color>
+    <color name="ic_launchertej2_background">#000000</color>
     <color name="ic_launchertej_background">#DCDCDC</color>
+    <color name="ic_launchertejflip_background">#1B79DC</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -520,7 +524,7 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

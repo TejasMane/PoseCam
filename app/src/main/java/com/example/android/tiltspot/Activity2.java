@@ -214,7 +214,7 @@ public class Activity2 extends AppCompatActivity {
 
             //Handle TextView and display string from your list
             TextView listItemText = (TextView)view.findViewById(R.id.list_item_string);
-            listItemText.setText(list2.get(position));
+            listItemText.setText(list.get(position));
 
 
 

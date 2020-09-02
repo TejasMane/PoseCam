@@ -34,6 +34,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import ir.mahdi.mzip.zip.ZipArchive;
@@ -43,12 +44,8 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
 
     private Camera mCamera;
     private CameraPreview mCameraPreview;
+    private static int camId = Camera.CameraInfo.CAMERA_FACING_FRONT;
 
-
-//    private SensorManager mSensorManager;
-//    private Sensor mSensorAccelerometer;
-//    private Sensor mSensorMagnetometer;
-//    private Sensor mSensorRotmeter;
 
 //    private float[] mRotmeterData = new float[3];
 
@@ -56,22 +53,17 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.cam_layout);
+
+
         mCamera = getCameraInstance();
+
+
         mCameraPreview = new CameraPreview(this, mCamera);
-        FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
+        RelativeLayout preview = (RelativeLayout) findViewById(R.id.camera_preview);
         preview.addView(mCameraPreview);
-
-
-//        mSensorRotmeter = mSensorManager.getDefaultSensor(
-//                Sensor.TYPE_ROTATION_VECTOR );
-//
-//        if (mSensorRotmeter != null) {
-//            mSensorManager.registerListener(this, mSensorRotmeter,
-//                    SensorManager.SENSOR_DELAY_NORMAL);
-//        }
-
-
 
 
         Button captureButton = (Button) findViewById(R.id.button_capture);
@@ -79,27 +71,91 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
             @Override
             public void onClick(View v) {
 
-                Thread t = new Thread(new Runnable() {
-                    public void run() {
+//                Thread t = new Thread(new Runnable() {
+//                    public void run() {
 
-                        mCamera.takePicture(null, null, mPicture);
-                    }
-                });
+                        mCamera.takePicture(new Camera.ShutterCallback() { @Override public void onShutter() { } }, null, mPicture);
+//
+//                    }
+//                });
 
-                t.start();
-//                mCamera.takePicture(null, null, mPicture);
-                try {
-                    t.join();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-//                mCamera.stopPreview();
-//                mCamera.startPreview();
+//                t.start();
+//                try {
+//                    t.join();
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
 
-//                recreate();
             }
         });
+
+        Button flipCamButton = (Button) findViewById(R.id.flipCam);
+
+        flipCamButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                mCamera.stopPreview();
+                mCamera.release();
+
+                if(camId == Camera.CameraInfo.CAMERA_FACING_BACK){
+                    camId = Camera.CameraInfo.CAMERA_FACING_FRONT;
+                }
+                else {
+                    camId = Camera.CameraInfo.CAMERA_FACING_BACK;
+                }
+                mCamera = Camera.open(camId);
+
+                Camera.Parameters parameters = mCamera.getParameters();
+                List<String> focusModes = parameters.getSupportedFocusModes();
+
+//                if (focusModes.contains(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE)) {
+//                    parameters.setFlashMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
+//                }
+
+                List<String> flashModes = parameters.getSupportedFlashModes();
+
+//                if (flashModes.contains(Camera.Parameters.FLASH_MODE_ON)) {
+//                    parameters.setFlashMode(Camera.Parameters.FLASH_MODE_ON);
+//                }
+
+                if(camId == Camera.CameraInfo.CAMERA_FACING_BACK){
+                    parameters.setRotation(90);
+                }
+                else {
+                    parameters.setRotation(270);
+                }
+
+
+                mCamera.setParameters(parameters);
+
+                mCameraPreview = new CameraPreview(CamActivity.this, mCamera);
+                RelativeLayout preview = (RelativeLayout) findViewById(R.id.camera_preview);
+                preview.addView(mCameraPreview);
+
+            }
+        });
+
+
+
+
+
+        Button BackButton = (Button) findViewById(R.id.button4);
+
+        BackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                releaseCamera(true);
+
+                Intent intent = new Intent(CamActivity.this, MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
     }
+
 
     /**
      * Helper method to access the camera returns null if it cannot get the
@@ -128,13 +184,30 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
             }
 
 
-//            Camera.Parameters params = camera.getParameters();
-//            List<String> flashModes = params.getSupportedFlashModes();
-//
-//            if (flashModes.contains(Camera.Parameters.FLASH_MODE_AUTO)) {
-//                params.setFlashMode(Camera.Parameters.FLASH_MODE_AUTO);
+            Camera.Parameters parameters = camera.getParameters();
+
+
+            if(camId == Camera.CameraInfo.CAMERA_FACING_BACK){
+                parameters.setRotation(90);
+            }
+            else {
+                parameters.setRotation(270);
+            }
+
+
+            List<String> focusModes = parameters.getSupportedFocusModes();
+
+            if (focusModes.contains(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE)) {
+                parameters.setFlashMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
+            }
+
+            List<String> flashModes = parameters.getSupportedFlashModes();
+
+//            if (flashModes.contains(Camera.Parameters.FLASH_MODE_ON)) {
+//                parameters.setFlashMode(Camera.Parameters.FLASH_MODE_ON);
 //            }
-//            camera.setParameters(params);
+
+            camera.setParameters(parameters);
 
 
         } catch (Exception e) {
@@ -142,6 +215,52 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
         }
         return camera;
     }
+
+
+    private Camera getCameraInstance2() {
+        Camera camera = null;
+        try {
+
+
+
+//            camera = Camera.open();
+
+            Camera.CameraInfo cameraInfo = new Camera.CameraInfo();
+            int cameraCount = Camera.getNumberOfCameras();
+            for (int camIdx = 0; camIdx < cameraCount; camIdx++) {
+                Camera.getCameraInfo(camIdx, cameraInfo);
+                if (cameraInfo.facing == Camera.CameraInfo.CAMERA_FACING_FRONT) {
+                    try {
+                        camera = Camera.open(camIdx);
+                    } catch (RuntimeException e) {
+                    }
+                }
+            }
+
+
+            Camera.Parameters parameters = camera.getParameters();
+
+
+            if(camId == Camera.CameraInfo.CAMERA_FACING_BACK){
+                parameters.setRotation(90);
+            }
+            else {
+                parameters.setRotation(270);
+            }
+
+
+            camera.setParameters(parameters);
+
+
+            camera.setParameters(parameters);
+
+
+        } catch (Exception e) {
+            // cannot get camera or does not exist
+        }
+        return camera;
+    }
+
 
     Camera.PictureCallback mPicture = new Camera.PictureCallback() {
         @Override
@@ -170,7 +289,7 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
                 "PoseCam");
 
         // Create a media file name
-        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss")
+        String timeStamp = new SimpleDateFormat("dd_HHmmss")
                 .format(new Date());
         File mediaFile;
 
@@ -184,7 +303,7 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
         int RollI = (int)  (MyService.roll * 90/1.57);
         String Roll = Integer.toString(RollI);
 
-        String fileName = "angles_"+azi+"_"+Pitch+"_"+Roll;
+        String fileName = "PC_"+azi+"_"+Pitch+"_"+Roll+"_"+Integer.toString(camId);
 
 
         mediaFile = new File(mediaStorageDir.getPath() + File.separator
@@ -196,15 +315,51 @@ public class CamActivity extends AppCompatActivity implements SurfaceHolder.Call
     }
 
 
+
+
     @Override
     public void surfaceCreated(SurfaceHolder surfaceHolder) {
+        releaseCamera(true);
+
+        mCamera = getCameraInstance();
+
+
+        mCameraPreview = new CameraPreview(this, mCamera);
+        RelativeLayout preview = (RelativeLayout) findViewById(R.id.camera_preview);
+        preview.addView(mCameraPreview);
 
     }
 
     @Override
     public void surfaceChanged(SurfaceHolder surfaceHolder, int i, int i1, int i2) {
+        releaseCamera(true);
+
+        mCamera = getCameraInstance();
+
+
+        mCameraPreview = new CameraPreview(this, mCamera);
+        RelativeLayout preview = (RelativeLayout) findViewById(R.id.camera_preview);
+        preview.addView(mCameraPreview);
+
 
     }
+
+
+    private void releaseCamera(boolean remove) {
+        if (mCamera != null) {
+            if (remove)
+                mCameraPreview.getHolder().removeCallback(mCameraPreview);
+            mCamera.release();
+            mCamera = null;
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        releaseCamera(true);
+    }
+
 
     @Override
     public void surfaceDestroyed(SurfaceHolder surfaceHolder) {

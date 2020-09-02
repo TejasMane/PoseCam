@@ -1,20 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:id="@+id/layout">
 
-    <FrameLayout
-        android:id="@+id/camera_preview"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1" />
+    <RelativeLayout android:id="@+id/camera_preview"
+        android:layout_weight="1" android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/flipCam"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:alpha="0.8"
+            android:background="@drawable/ic_photo_camera2"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/ic_left"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:text="" />
+
 
     <Button
         android:id="@+id/button_capture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Capture" />
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50dp"
+        android:alpha="0.8"
+        android:background="@drawable/ic_camera"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:text="" />
 
-</LinearLayout>
+
+
+</RelativeLayout>

@@ -25,7 +25,7 @@
             android:name="com.example.android.tiltspot.MyService"
             android:enabled="true"
             android:exported="false"
-            android:stopWithTask="true" />
+            android:launchMode="singleTop" />
 
         <activity android:name="com.example.android.tiltspot.CamActivity" />
         <activity android:name="com.example.android.tiltspot.Activity2" />

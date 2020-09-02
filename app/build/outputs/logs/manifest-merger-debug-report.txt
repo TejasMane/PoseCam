@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f4be7a093a13af0e67d9d493ef074091\recyclerview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
@@ -21,20 +21,20 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ezioa\.gr
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\66452b73c6addccc832c7b3c81d9e845\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\de5dab19474f7bc055bdbb01a97fc143\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:11-69
@@ -55,7 +55,7 @@ ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\A
 	android:name
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:7:22-62
 application
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:9:5-41:19
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:9:5-42:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:7:5-12:19
@@ -101,53 +101,53 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches
 	android:theme
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:15:9-40
 service#com.example.android.tiltspot.MyService
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:16:9-20:48
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:16:9-21:24
 	android:enabled
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:18:13-35
+	android:launchMode
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:20:13-43
 	android:exported
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:20:13-37
-	android:stopWithTask
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:19:13-40
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:17:13-38
 activity#com.example.android.tiltspot.CamActivity
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:9-49
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-49
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:19-46
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:19-46
 activity#com.example.android.tiltspot.Activity2
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-47
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-47
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:19-44
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:19-44
 activity#com.example.android.tiltspot.MainActivity
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:29:27-74
 provider#android.support.v4.content.FileProvider
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:9-41:20
 	android:grantUriPermissions
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:13-47
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:37:13-47
 	android:authorities
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:13-76
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:35:13-76
 	android:exported
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:13-67
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:37:13-39:54
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:13-40:54
 	android:resource
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:39:17-51
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:40:17-51
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:17-67
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:39:17-67
 uses-sdk
 INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml

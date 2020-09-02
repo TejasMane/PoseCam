@@ -21,7 +21,7 @@
 13-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:7:22-62
 14
 15    <application
-15-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:9:5-41:19
+15-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:9:5-42:19
 16        android:allowBackup="true"
 16-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:10:9-35
 17        android:debuggable="true"
@@ -37,53 +37,53 @@
 23        android:theme="@style/AppTheme" >
 23-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:15:9-40
 24        <service
-24-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:16:9-20:48
+24-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:16:9-21:24
 25            android:name="com.example.android.tiltspot.MyService"
 25-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:17:13-38
 26            android:enabled="true"
 26-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:18:13-35
 27            android:exported="false"
-27-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:20:13-37
-28            android:stopWithTask="true" />
-28-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:19:13-40
+27-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:19:13-37
+28            android:launchMode="singleTop" />
+28-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:20:13-43
 29
 30        <activity android:name="com.example.android.tiltspot.CamActivity" />
-30-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:9-49
-30-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:19-46
+30-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-49
+30-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:19-46
 31        <activity android:name="com.example.android.tiltspot.Activity2" />
-31-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-47
-31-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:19-44
+31-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-47
+31-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:19-44
 32        <activity android:name="com.example.android.tiltspot.MainActivity" >
-32-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-30:20
-32-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:19-47
+32-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:9-31:20
+32-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:19-47
 33            <intent-filter>
-33-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:13-29:29
+33-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:13-30:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:17-69
-34-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:25-66
+34-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:27:17-69
+34-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:27:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:17-77
-36-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:27-74
+36-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:29:17-77
+36-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:29:27-74
 37            </intent-filter>
 38        </activity>
 39
 40        <provider
-40-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:32:9-40:20
+40-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:9-41:20
 41            android:name="android.support.v4.content.FileProvider"
-41-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:13-67
+41-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:13-67
 42            android:authorities="com.example.android.tiltspot.fileprovider"
-42-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:13-76
+42-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:35:13-76
 43            android:exported="false"
-43-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:35:13-37
+43-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:13-37
 44            android:grantUriPermissions="true" >
-44-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:13-47
+44-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:37:13-47
 45            <meta-data
-45-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:37:13-39:54
+45-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:13-40:54
 46                android:name="android.support.FILE_PROVIDER_PATHS"
-46-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:17-67
+46-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:39:17-67
 47                android:resource="@xml/file_paths" />
-47-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:39:17-51
+47-->F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:40:17-51
 48        </provider>
 49
 50        <meta-data
