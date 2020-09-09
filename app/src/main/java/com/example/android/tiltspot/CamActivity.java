@@ -24,6 +24,7 @@ import java.util.List;
 import android.app.Activity;
 import android.content.Intent;
 import android.hardware.Camera;
+import android.hardware.camera2.CameraDevice;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Display;

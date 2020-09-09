@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.example.android.tiltspot",
         "split": "",
-        "minSdkVersion": "15"
+        "minSdkVersion": "21"
       }
     }
   ]
