@@ -1,195 +1,313 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
-MERGED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f4be7a093a13af0e67d9d493ef074091\recyclerview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:2:1-20:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d83d1b2906b010fc2c13f0c9b7d3c61d\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\cb1f032b0771b9d1e03133233a8ea1f3\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:transition:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\049528a0c4d3bc45df81ad52e042c3ff\transition-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\065e98bf999797f2f7b43b4a732c5f2c\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9e628c352ef49ed08b5b22ed60e08d89\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ae5c6e4569ede4533571a58679ece8c1\animated-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcb116767e5a5f07366853edba5522f8\support-fragment-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1abf8dae3f1b604af87527d3407b3dbb\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5a48cc5d39b88214eaad05fd183cea3b\support-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\249e1a24d26337fe2c199cc43ac5a523\support-media-compat-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\66452b73c6addccc832c7b3c81d9e845\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\de5dab19474f7bc055bdbb01a97fc143\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ddac19537035a9dbc479d0e64ed8008e\navigation-ui-ktx-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6b3d133eb778893fb5c4fba893d0c51d\navigation-ui-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c122524bdc2720f57dd4384861ac7d8d\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\285f490f53da795dd70ee0f368c0d5c8\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7e8d82c7e7030e23c98471b2ea7f04e0\navigation-fragment-ktx-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fdac5a326bd4e20c447a9ddd748a627\fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\76f63ba00440b8c2ed277b726755393d\navigation-runtime-ktx-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0582cf930e3e2cddc3364cc394f5224b\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6ab4bd6fc0e983640d81b711b913024b\core-ktx-1.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\90e41fb3ce980c837858eacea172cdce\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7b033e6b8f225f303975b643a1ee4639\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.0.0-alpha14] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3d563c242619dab35969783ea1d17b5c\jetified-camera-view-1.0.0-alpha14\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\cafc9ac8ebeebbafcab3cd2649466489\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fc64f0259807e201ef86ca2df8addd3\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\77be93ecca6018e1bc5202431ac0464c\jetified-camera-camera2-1.0.0-beta07\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8841181f410878556a519a567c1a7b08\jetified-camera-lifecycle-1.0.0-beta07\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\df06b37cfcd2833568d5d5d9a2308e55\navigation-common-ktx-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9128f87ef351206d0715c4b2de710ea1\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\414104850eed0809f79ec492580a5127\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\2cb5b18fe97ec6598fc3a7b17d36141e\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\a67293c3d05ef07d6d8cb337786a628d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-core:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\787ee33faa58182a26a64fd54010d2eb\jetified-camera-core-1.0.0-beta07\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3da7d2cebf8648e6517282d937846880\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c909c8d620f6f41a7baf3e133b93f1e3\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8d51fe5b3a8a21190b4de617d30bb716\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3c7b366deb817ebddad64cd2a1cf99ff\navigation-fragment-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\b7978bef357a8409f9aa61e28082421d\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8d34f5cf2d0f3dc213eb2efce5534067\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9ca276d8719cf2c05bc06f84dd5ed2ed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\042d6e923f8c6a6ea213da4844bfd401\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f60a664a476d8f539e517bdf798f3d2c\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\eb9320552376c0c14cd2d2d7e00e1560\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7786085afac74595657b4507b7b8e196\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\499286cf300446741c00ec9824587a83\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\64cb9eead473e41644e81ef75f8c1c81\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d938799bf2c7d4bd4e6a850f3bbf9452\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\74a5911cd63773194cd4d36a03c00706\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\e81fd72b0f87af85068861838ad9905c\navigation-runtime-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0c1ee6b797b147915cc374a0322b28f9\activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\49e2d26523299c2ceed51c3988753394\navigation-common-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0ba5cf437a795c7d539dc0bcb034ef25\core-1.3.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fc83fc652dcc87bc99a1736fb1d6a0b\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c0ae28411163ea290937b3d153e4312f\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5ed205745f4b7cdc0a73c80446928e55\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\e6359cec98b2353ca41ff9330fd185c9\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\305691cc96ba65ae7f9b704e8080a529\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\97cce1bb6cb39a9a547cbb3503fc283a\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0d2962d75836bec3bff240b317e7badc\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dc3bb6b34d488ddb70e35ea96881260d\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3cdcc342684cac8867a650f798f00f69\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\35a9c31eccabf0925e4cdda3d5ed0ef7\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1a9437305768a3a7bf3dea568144db05\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\efac2d9422f6c48ba16bad7e50391351\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9a1bb90fd3492ce2aef82dcd72693694\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\54bed7dce05e592f07f59c6373ca8970\annotation-experimental-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:5:5-80
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:12:5-80
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:12:5-80
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:12:5-80
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:12:5-80
 	android:name
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:6:5-81
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:11:5-81
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:11:5-81
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:11:5-81
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:6:22-78
+uses-feature#android.hardware.camera.any
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:7:5-8:36
+	android:required
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:7:19-61
+uses-feature#android.hardware.camera
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:9:5-10:50
+	android:name
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:10:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:11:5-12:60
+	android:name
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:12:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:13:5-14:56
+	android:name
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:14:9-53
 uses-permission#android.permission.CAMERA
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:7:5-65
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:15:5-65
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:15:22-62
 application
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:9:5-42:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f4be7a093a13af0e67d9d493ef074091\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f4be7a093a13af0e67d9d493ef074091\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:14:5-18:19
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:14:5-18:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d83d1b2906b010fc2c13f0c9b7d3c61d\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d83d1b2906b010fc2c13f0c9b7d3c61d\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\cb1f032b0771b9d1e03133233a8ea1f3\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\cb1f032b0771b9d1e03133233a8ea1f3\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:transition:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\049528a0c4d3bc45df81ad52e042c3ff\transition-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\049528a0c4d3bc45df81ad52e042c3ff\transition-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\065e98bf999797f2f7b43b4a732c5f2c\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\065e98bf999797f2f7b43b4a732c5f2c\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ae5c6e4569ede4533571a58679ece8c1\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ae5c6e4569ede4533571a58679ece8c1\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcb116767e5a5f07366853edba5522f8\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcb116767e5a5f07366853edba5522f8\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1abf8dae3f1b604af87527d3407b3dbb\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1abf8dae3f1b604af87527d3407b3dbb\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5a48cc5d39b88214eaad05fd183cea3b\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5a48cc5d39b88214eaad05fd183cea3b\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\249e1a24d26337fe2c199cc43ac5a523\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\249e1a24d26337fe2c199cc43ac5a523\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\66452b73c6addccc832c7b3c81d9e845\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\66452b73c6addccc832c7b3c81d9e845\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\de5dab19474f7bc055bdbb01a97fc143\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\de5dab19474f7bc055bdbb01a97fc143\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:18:5-51:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c122524bdc2720f57dd4384861ac7d8d\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c122524bdc2720f57dd4384861ac7d8d\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:14:5-18:19
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:14:5-18:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fc64f0259807e201ef86ca2df8addd3\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fc64f0259807e201ef86ca2df8addd3\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0ba5cf437a795c7d539dc0bcb034ef25\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0ba5cf437a795c7d539dc0bcb034ef25\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0d2962d75836bec3bff240b317e7badc\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0d2962d75836bec3bff240b317e7badc\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0ba5cf437a795c7d539dc0bcb034ef25\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:21:9-41
 	android:roundIcon
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:22:9-54
 	android:icon
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-40
 service#com.example.android.tiltspot.MyService
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:16:9-21:24
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:9-30:24
 	android:enabled
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:18:13-35
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:27:13-35
 	android:launchMode
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:20:13-43
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:29:13-43
 	android:exported
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:17:13-38
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:13-38
 activity#com.example.android.tiltspot.CamActivity
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-49
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:32:9-49
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:23:19-46
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:32:19-46
 activity#com.example.android.tiltspot.Activity2
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-47
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:9-47
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:24:19-44
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:19-44
 activity#com.example.android.tiltspot.MainActivity
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:9-31:20
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:9-40:20
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:25:19-47
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:29:27-74
-provider#android.support.v4.content.FileProvider
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:33:9-41:20
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:27-74
+provider#androidx.core.content.FileProvider
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:42:9-50:20
 	android:grantUriPermissions
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:37:13-47
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:46:13-47
 	android:authorities
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:35:13-76
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:44:13-76
 	android:exported
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:34:13-67
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:43:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:38:13-40:54
+ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:47:13-49:54
 	android:resource
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:40:17-51
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:49:17-51
 	android:name
-		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:39:17-67
+		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml:48:17-67
 uses-sdk
 INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:21:5-23:62
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f4be7a093a13af0e67d9d493ef074091\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f4be7a093a13af0e67d9d493ef074091\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\abbfab91b6b2a8e10d4d94e443ac0b22\Mzip-Android-0.4.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d83d1b2906b010fc2c13f0c9b7d3c61d\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d83d1b2906b010fc2c13f0c9b7d3c61d\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\cb1f032b0771b9d1e03133233a8ea1f3\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\cb1f032b0771b9d1e03133233a8ea1f3\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:transition:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\049528a0c4d3bc45df81ad52e042c3ff\transition-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\049528a0c4d3bc45df81ad52e042c3ff\transition-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\065e98bf999797f2f7b43b4a732c5f2c\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\065e98bf999797f2f7b43b4a732c5f2c\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9e628c352ef49ed08b5b22ed60e08d89\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9e628c352ef49ed08b5b22ed60e08d89\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ae5c6e4569ede4533571a58679ece8c1\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ae5c6e4569ede4533571a58679ece8c1\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcb116767e5a5f07366853edba5522f8\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcb116767e5a5f07366853edba5522f8\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1abf8dae3f1b604af87527d3407b3dbb\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1abf8dae3f1b604af87527d3407b3dbb\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5a48cc5d39b88214eaad05fd183cea3b\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5a48cc5d39b88214eaad05fd183cea3b\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\249e1a24d26337fe2c199cc43ac5a523\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\249e1a24d26337fe2c199cc43ac5a523\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\66452b73c6addccc832c7b3c81d9e845\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\66452b73c6addccc832c7b3c81d9e845\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\de5dab19474f7bc055bdbb01a97fc143\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\de5dab19474f7bc055bdbb01a97fc143\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ddac19537035a9dbc479d0e64ed8008e\navigation-ui-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ddac19537035a9dbc479d0e64ed8008e\navigation-ui-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6b3d133eb778893fb5c4fba893d0c51d\navigation-ui-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6b3d133eb778893fb5c4fba893d0c51d\navigation-ui-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c122524bdc2720f57dd4384861ac7d8d\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c122524bdc2720f57dd4384861ac7d8d\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\285f490f53da795dd70ee0f368c0d5c8\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\285f490f53da795dd70ee0f368c0d5c8\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ghost1372:Mzip-Android:0.4.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d23e0d06a1277d798e10da0482e3c134\Mzip-Android-0.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7e8d82c7e7030e23c98471b2ea7f04e0\navigation-fragment-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7e8d82c7e7030e23c98471b2ea7f04e0\navigation-fragment-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fdac5a326bd4e20c447a9ddd748a627\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fdac5a326bd4e20c447a9ddd748a627\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\76f63ba00440b8c2ed277b726755393d\navigation-runtime-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\76f63ba00440b8c2ed277b726755393d\navigation-runtime-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0582cf930e3e2cddc3364cc394f5224b\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0582cf930e3e2cddc3364cc394f5224b\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6ab4bd6fc0e983640d81b711b913024b\core-ktx-1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6ab4bd6fc0e983640d81b711b913024b\core-ktx-1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\90e41fb3ce980c837858eacea172cdce\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\90e41fb3ce980c837858eacea172cdce\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7b033e6b8f225f303975b643a1ee4639\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7b033e6b8f225f303975b643a1ee4639\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha14] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3d563c242619dab35969783ea1d17b5c\jetified-camera-view-1.0.0-alpha14\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha14] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3d563c242619dab35969783ea1d17b5c\jetified-camera-view-1.0.0-alpha14\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\cafc9ac8ebeebbafcab3cd2649466489\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\cafc9ac8ebeebbafcab3cd2649466489\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fc64f0259807e201ef86ca2df8addd3\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fc64f0259807e201ef86ca2df8addd3\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\77be93ecca6018e1bc5202431ac0464c\jetified-camera-camera2-1.0.0-beta07\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\77be93ecca6018e1bc5202431ac0464c\jetified-camera-camera2-1.0.0-beta07\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8841181f410878556a519a567c1a7b08\jetified-camera-lifecycle-1.0.0-beta07\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8841181f410878556a519a567c1a7b08\jetified-camera-lifecycle-1.0.0-beta07\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\df06b37cfcd2833568d5d5d9a2308e55\navigation-common-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\df06b37cfcd2833568d5d5d9a2308e55\navigation-common-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9128f87ef351206d0715c4b2de710ea1\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9128f87ef351206d0715c4b2de710ea1\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\414104850eed0809f79ec492580a5127\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\414104850eed0809f79ec492580a5127\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\2cb5b18fe97ec6598fc3a7b17d36141e\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\2cb5b18fe97ec6598fc3a7b17d36141e\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\a67293c3d05ef07d6d8cb337786a628d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\a67293c3d05ef07d6d8cb337786a628d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-core:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\787ee33faa58182a26a64fd54010d2eb\jetified-camera-core-1.0.0-beta07\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-beta07] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\787ee33faa58182a26a64fd54010d2eb\jetified-camera-core-1.0.0-beta07\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3da7d2cebf8648e6517282d937846880\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3da7d2cebf8648e6517282d937846880\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c909c8d620f6f41a7baf3e133b93f1e3\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c909c8d620f6f41a7baf3e133b93f1e3\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8d51fe5b3a8a21190b4de617d30bb716\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8d51fe5b3a8a21190b4de617d30bb716\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3c7b366deb817ebddad64cd2a1cf99ff\navigation-fragment-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3c7b366deb817ebddad64cd2a1cf99ff\navigation-fragment-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\b7978bef357a8409f9aa61e28082421d\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\b7978bef357a8409f9aa61e28082421d\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8d34f5cf2d0f3dc213eb2efce5534067\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\8d34f5cf2d0f3dc213eb2efce5534067\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9ca276d8719cf2c05bc06f84dd5ed2ed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9ca276d8719cf2c05bc06f84dd5ed2ed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\042d6e923f8c6a6ea213da4844bfd401\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\042d6e923f8c6a6ea213da4844bfd401\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f60a664a476d8f539e517bdf798f3d2c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f60a664a476d8f539e517bdf798f3d2c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\eb9320552376c0c14cd2d2d7e00e1560\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\eb9320552376c0c14cd2d2d7e00e1560\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7786085afac74595657b4507b7b8e196\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\7786085afac74595657b4507b7b8e196\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\499286cf300446741c00ec9824587a83\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\499286cf300446741c00ec9824587a83\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\64cb9eead473e41644e81ef75f8c1c81\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\64cb9eead473e41644e81ef75f8c1c81\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d938799bf2c7d4bd4e6a850f3bbf9452\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d938799bf2c7d4bd4e6a850f3bbf9452\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\74a5911cd63773194cd4d36a03c00706\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\74a5911cd63773194cd4d36a03c00706\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\e81fd72b0f87af85068861838ad9905c\navigation-runtime-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\e81fd72b0f87af85068861838ad9905c\navigation-runtime-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0c1ee6b797b147915cc374a0322b28f9\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0c1ee6b797b147915cc374a0322b28f9\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\49e2d26523299c2ceed51c3988753394\navigation-common-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\49e2d26523299c2ceed51c3988753394\navigation-common-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0ba5cf437a795c7d539dc0bcb034ef25\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0ba5cf437a795c7d539dc0bcb034ef25\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fc83fc652dcc87bc99a1736fb1d6a0b\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\6fc83fc652dcc87bc99a1736fb1d6a0b\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c0ae28411163ea290937b3d153e4312f\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c0ae28411163ea290937b3d153e4312f\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5ed205745f4b7cdc0a73c80446928e55\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5ed205745f4b7cdc0a73c80446928e55\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\e6359cec98b2353ca41ff9330fd185c9\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\e6359cec98b2353ca41ff9330fd185c9\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\305691cc96ba65ae7f9b704e8080a529\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\305691cc96ba65ae7f9b704e8080a529\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\97cce1bb6cb39a9a547cbb3503fc283a\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\97cce1bb6cb39a9a547cbb3503fc283a\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0d2962d75836bec3bff240b317e7badc\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0d2962d75836bec3bff240b317e7badc\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dc3bb6b34d488ddb70e35ea96881260d\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dc3bb6b34d488ddb70e35ea96881260d\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3cdcc342684cac8867a650f798f00f69\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\3cdcc342684cac8867a650f798f00f69\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\35a9c31eccabf0925e4cdda3d5ed0ef7\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\35a9c31eccabf0925e4cdda3d5ed0ef7\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1a9437305768a3a7bf3dea568144db05\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1a9437305768a3a7bf3dea568144db05\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\efac2d9422f6c48ba16bad7e50391351\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\efac2d9422f6c48ba16bad7e50391351\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9a1bb90fd3492ce2aef82dcd72693694\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\9a1bb90fd3492ce2aef82dcd72693694\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\54bed7dce05e592f07f59c6373ca8970\annotation-experimental-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\54bed7dce05e592f07f59c6373ca8970\annotation-experimental-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
 INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
@@ -198,45 +316,11 @@ INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\mai
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 		ADDED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
 		INJECTED from F:\android-advanced-starter-apps-master\TiltSpot_start\app\src\main\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f4be7a093a13af0e67d9d493ef074091\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\f4be7a093a13af0e67d9d493ef074091\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d83d1b2906b010fc2c13f0c9b7d3c61d\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\d83d1b2906b010fc2c13f0c9b7d3c61d\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\049528a0c4d3bc45df81ad52e042c3ff\transition-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\049528a0c4d3bc45df81ad52e042c3ff\transition-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\065e98bf999797f2f7b43b4a732c5f2c\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\065e98bf999797f2f7b43b4a732c5f2c\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ae5c6e4569ede4533571a58679ece8c1\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ae5c6e4569ede4533571a58679ece8c1\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcb116767e5a5f07366853edba5522f8\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcb116767e5a5f07366853edba5522f8\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1abf8dae3f1b604af87527d3407b3dbb\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\1abf8dae3f1b604af87527d3407b3dbb\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5a48cc5d39b88214eaad05fd183cea3b\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\5a48cc5d39b88214eaad05fd183cea3b\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\249e1a24d26337fe2c199cc43ac5a523\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\249e1a24d26337fe2c199cc43ac5a523\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\66452b73c6addccc832c7b3c81d9e845\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\66452b73c6addccc832c7b3c81d9e845\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\de5dab19474f7bc055bdbb01a97fc143\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\de5dab19474f7bc055bdbb01a97fc143\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:design:26.1.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\0f083e3ba4438f61066542dad3762175\design-26.1.0\AndroidManifest.xml:27:13-51
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\dcc1d02ad2e1c81b8d8e23e9031fb11b\picasso-2.71828\AndroidManifest.xml:9:13-64
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:27:13-44
-	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:26:13-58
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\ezioa\.gradle\caches\transforms-2\files-2.1\c50a50cb5541138b566dda30ae2c7059\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64

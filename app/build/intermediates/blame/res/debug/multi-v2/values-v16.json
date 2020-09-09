@@ -4,17 +4,7 @@
             "outputFile": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ezioa\\.gradle\\caches\\transforms-2\\files-2.1\\de5dab19474f7bc055bdbb01a97fc143\\support-compat-26.1.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ezioa\\.gradle\\caches\\transforms-2\\files-2.1\\d83d1b2906b010fc2c13f0c9b7d3c61d\\appcompat-v7-26.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\ezioa\\.gradle\\caches\\transforms-2\\files-2.1\\cafc9ac8ebeebbafcab3cd2649466489\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ezioa\\.gradle\\caches\\transforms-2\\files-2.1\\0ba5cf437a795c7d539dc0bcb034ef25\\core-1.3.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

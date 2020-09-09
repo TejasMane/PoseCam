@@ -6,20 +6,28 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <service
             android:name="com.example.android.tiltspot.MyService"
@@ -38,7 +46,7 @@
         </activity>
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.android.tiltspot.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
@@ -46,19 +54,10 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.example.android.tiltspot.com.squareup.picasso"
             android:exported="false" />
-
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

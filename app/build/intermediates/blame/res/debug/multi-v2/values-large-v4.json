@@ -4,7 +4,24 @@
             "outputFile": "F:\\android-advanced-starter-apps-master\\TiltSpot_start\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ezioa\\.gradle\\caches\\transforms-2\\files-2.1\\d83d1b2906b010fc2c13f0c9b7d3c61d\\appcompat-v7-26.1.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\ezioa\\.gradle\\caches\\transforms-2\\files-2.1\\c122524bdc2720f57dd4384861ac7d8d\\material-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ezioa\\.gradle\\caches\\transforms-2\\files-2.1\\cafc9ac8ebeebbafcab3cd2649466489\\appcompat-1.1.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

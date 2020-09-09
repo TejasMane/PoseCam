@@ -336,8 +336,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_trash" />
-                            <entry key="sourceFile" value="F:\android-advanced-starter-apps-master\TiltSpot_start\trash.svg" />
+                            <entry key="outputName" value="ic_thunder" />
+                            <entry key="sourceFile" value="F:\android-advanced-starter-apps-master\TiltSpot_start\thunder.svg" />
                           </map>
                         </option>
                       </PersistentState>

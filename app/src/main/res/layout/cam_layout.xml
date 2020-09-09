@@ -1,59 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="fill_parent"
-    android:layout_height="fill_parent" android:id="@+id/layout">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-    <RelativeLayout android:id="@+id/camera_preview"
-        android:layout_weight="1" android:layout_width="fill_parent"
-        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/camera_capture_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="50dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:alpha="0.8"
+        android:background="@drawable/ic_camera"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:elevation="2dp" />
 
-
-        <Button
-            android:id="@+id/flipCam"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:alpha="0.8"
-            android:background="@drawable/ic_photo_camera2"
-            android:scaleX="0.8"
-            android:scaleY="0.8" />
-
-
-
-    </RelativeLayout>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
         android:alpha="0.8"
-        android:background="@drawable/ic_left"
-        android:scaleX="0.6"
-        android:scaleY="0.6"
-        android:text="" />
+        android:background="@android:drawable/ic_menu_revert"
+        android:scaleType="fitCenter"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/flipCam"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/ic_switchcam"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
-        android:id="@+id/button_capture"
+        android:id="@+id/flashButton"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal|bottom"
-        android:layout_marginBottom="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
         android:alpha="0.8"
-        android:background="@drawable/ic_camera"
+        android:background="@drawable/ic_thunder"
         android:scaleX="0.8"
         android:scaleY="0.8"
-        android:text="" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/ic_crosshair"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/viewFinder" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
 
+    </androidx.camera.view.PreviewView>
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
